@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXIOS Demo Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #111; /* Dark grey background color */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: block;
+            max-width: 80%;
+            margin: 0 auto 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 15px 30px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #800080;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #6a006a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="D:\WEB\Axios\101181820-f3a63780-3612-11eb-9d3a-05452f2b0ad8.png" alt="AXIOS Logo">
+    </div>
+    <div class="button-container">
+        <button id="get-btn" type="button">GET</button>
+        <button id="post-btn" type="button">POST</button>
+        <button id="put-btn" type="button">PUT</button>
+        <button id="delete-btn" type="button">DELETE</button>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.min.js"></script>
+<script src="index.js"></script>
+
+</html>
